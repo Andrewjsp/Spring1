@@ -3,10 +3,8 @@ package com.epam.filter;
 import com.epam.securityToken.TokenAuth;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Component;
-import sun.plugin.liveconnect.SecurityContextHelper;
 
 import javax.servlet.*;
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 
